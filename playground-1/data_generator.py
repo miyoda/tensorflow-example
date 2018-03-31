@@ -13,3 +13,4 @@ def generate(numPoints):
 def distance(pointFrom, pointTo):
   diff = (pointTo[0] - pointFrom[0], pointTo[1] - pointFrom[1])
   return math.sqrt(diff[0]*diff[0]+diff[1]*diff[1])
+

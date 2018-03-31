@@ -4,7 +4,7 @@ import tensorflow as tf
 import data_generator
 
 COLUMN_NAMES = ['x', 'y','Color']
-NUM_TRAIN_DATA = 120
+NUM_TRAIN_DATA = 200
 NUM_TEST_DATA = 30
 
 def load_data(y_name='Color'):
